@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    
+}
+.title{
+    background-color: #407bff;
+    color: white;
+    padding: 20px;
+}
+.title h1{
+font-weight: bold;
+font-size: 3rem;
+text-align: center;
+}
+.container-fluid{
+   padding: 30px 3px;
+}
+.btn{
+    color: #407bff;
+    background-color: white;
+    margin: 40px 10px 0 0;
+}
+.btn :hover{
+    color: #407bff;
+}
+.navbar{
+    font-weight: bold;
+    color: white;
+}
+.nav-link{
+    color: white;
+}
+.navbar-toggler{
+    background-color: #407bff;
+    color: white;
+}
+.navbar-toggler:hover{
+    background-color: #194fc5;
+}
+
+/* services section */
+.container-fluid{
+    padding: 20px;
+    text-align: center;
+}
+.container{
+    text-align: center;
+}
+/* services section ends */
+.card-header{
+    background-color: #407bff;
+}
+.container{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.featured{
+    text-align: center;
+    background-color: #194fc5;
+    color: white;
+}
+.future-img{
+    width: 80%;
+}
