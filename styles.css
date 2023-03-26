@@ -94,3 +94,6 @@ color: white;
 .icon:hover{
    color: #194fc5;
 }
+.img1{
+    object-fit: cover;
+}
