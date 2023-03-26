@@ -56,9 +56,41 @@ text-align: center;
 }
 .featured{
     text-align: center;
-    background-color: #194fc5;
+    background-color: #407bff;
     color: white;
 }
 .future-img{
     width: 80%;
+}
+.teamD{
+    margin-top: 40px;
+}
+.team span,h2{
+    color: white
+}
+.one{
+    background-color: #407bff;
+}
+.footer{
+    background-color: #407bff;
+    
+}
+.footer a{
+    text-decoration: none;
+}
+.footer a:hover{
+    color: white;
+}
+.ftbtn:hover{
+background-color: #194fc5;
+color: white;
+}
+.socials{
+    margin: 30px;
+}
+.icon{
+   color: white;
+}
+.icon:hover{
+   color: #194fc5;
 }
