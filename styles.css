@@ -7,7 +7,7 @@ body{
     background-color: #407bff;
     color: white;
     padding: 20px;
-    padding-top: 80px;
+    padding-top: 90px;
 }
 .title h1{
 font-weight: bold;
@@ -83,14 +83,14 @@ z-index: 1;
 /* CARDS END */
 
 /* FOOTER */
-.footer{
+#footer{
     background-color: #407bff;
     color: white;
 }
-.footer a{
+#footer a{
     text-decoration: none;
 }
-.footer a:hover{
+#footer a:hover{
     color: white;
 }
 .socials{
@@ -150,3 +150,7 @@ z-index: 1;
     padding: 0%;
 }
 /* explore ends */
+.cfour{
+    background-color: white;
+    color: black;
+}
