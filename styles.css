@@ -2,26 +2,47 @@ body{
     margin: 0;
     
 }
+/* TITLE section */
 .title{
     background-color: #407bff;
     color: white;
     padding: 20px;
+    padding-top: 80px;
 }
 .title h1{
 font-weight: bold;
 font-size: 3rem;
 text-align: center;
 }
+/* TITLE section ENDS*/
+
+/* CONTAINERS */
 .container-fluid{
-   padding: 30px 3px;
+    padding: 30px 3px;
+ }
+ .container-fluid{
+    padding: 20px;
+    text-align: center;
 }
-.btn{
-    color: #407bff;
-    background-color: white;
-    margin: 40px 10px 0 0;
+.container{
+    text-align: center;
 }
-.btn :hover{
-    color: #407bff;
+.container{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/* CONTAINERS END */
+
+/* NAVBAR */
+a{
+    text-decoration: none;
+}
+.navsec{
+position: fixed;
+width: 100%;
+background-color: #407bff;
+z-index: 1;
 }
 .navbar{
     font-weight: bold;
@@ -37,23 +58,76 @@ text-align: center;
 .navbar-toggler:hover{
     background-color: #194fc5;
 }
+/* NAVBAR ENDS*/
 
-/* services section */
-.container-fluid{
-    padding: 20px;
-    text-align: center;
+/* BUTTONS */
+.btn{
+    color: #407bff;
+    background-color: white;
+    margin: 40px 10px 0 0;
 }
-.container{
-    text-align: center;
+.btn :hover{
+    color: #407bff;
 }
-/* services section ends */
+.ftbtn:hover{
+    background-color: #194fc5;
+    color: white;
+    }
+/* BUTTONS ENDS*/
+
+/* CARDS */
 .card-header{
     background-color: #407bff;
 }
-.container{
-    margin-top: 5px;
-    margin-bottom: 20px;
+
+/* CARDS END */
+
+/* FOOTER */
+.footer{
+    background-color: #407bff;
+    color: white;
 }
+.footer a{
+    text-decoration: none;
+}
+.footer a:hover{
+    color: white;
+}
+.socials{
+    margin: 30px;
+}
+/* FOOTER ENDS */
+
+/* ICONS */
+.icon{
+   color: white;
+}
+.icon:hover{
+   color: #194fc5;
+}
+/* ICONS ENDS*/
+
+/* TEAM D */
+.img{
+    height: 400px;
+    object-fit: cover;
+}
+
+.teamD{
+    margin-top: 40px;
+}
+.team ,h2{
+    color: white
+}
+.span{
+    color: grey;
+}
+.one{
+    background-color: #407bff;
+}
+/* TEAM D ENDS*/
+
+/* FEAUTURED */
 .featured{
     text-align: center;
     background-color: #407bff;
@@ -62,39 +136,17 @@ text-align: center;
 .future-img{
     width: 80%;
 }
-.teamD{
-    margin-top: 40px;
-}
-.team span,h2{
-    color: white
-}
-.one{
+/* FEAUTURED ENDS */
+
+/* explore page*/
+.explore{
     background-color: #407bff;
+    padding: 0%;
 }
-.footer{
-    background-color: #407bff;
-    
+
+.flora{
+    background-color: white;
+    color: black;
+    padding: 0%;
 }
-.footer a{
-    text-decoration: none;
-}
-.footer a:hover{
-    color: white;
-}
-.ftbtn:hover{
-background-color: #194fc5;
-color: white;
-}
-.socials{
-    margin: 30px;
-}
-.icon{
-   color: white;
-}
-.icon:hover{
-   color: #194fc5;
-}
-.img{
-    height: 400px;
-    object-fit: cover;
-}
+/* explore ends */
